@@ -133,7 +133,8 @@ const ProductDetails = () => {
               <img
                 src="/Shopdetail-img/Image-8.png"
                 alt="Product"
-                className="w-full h-40 object-cover rounded-lg"
+                className="w-full h-40 rounded-lg"
+                style={{ objectFit: 'cover' }} 
               />
               <h4 className="mt-2 text-lg font-semibold">Burger</h4>
               <p className="text-gray-600">$19.00</p>
