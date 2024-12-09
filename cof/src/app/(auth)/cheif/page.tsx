@@ -1,19 +1,20 @@
 
+import { Images } from "lucide-react";
 import React from "react";
 
 const chefs = [
-  { name: "Tahmina Rumi", role: "Chef", img: "/Chief-img/Cheif-1.png" },
-  { name: "Jorina Begum", role: "Chef", img: "/Chief-img/Cheif-2.png" },
-  { name: "M. Mohammad", role: "Chef", img: "/Chief-img/Cheif-3.png" },
-  { name: "Munna Kathy", role: "Chef", img: "/Chief-img/Cheif-4.png" },
-  { name: "Bisnu Devgon", role: "Chef", img: "/Chief-img/Cheif-5.png" },
-  { name: "Motin Molladsf", role: "Chef", img: "/Chief-img/Cheif-6.png" },
-  { name: "William Rumi", role: "Chef", img: "/Chief-img/Cheif-7.png" },
-  { name: "Kets William Roy", role: "Chef", img: "/Chief-img/Cheif-8.png" },
-  { name: "Mahmud Kholil", role: "Chef", img: "/Chief-img/Cheif-9.png" },
-  { name: "Ataur Rahman", role: "Chef", img: "/Chief-img/Cheif-10.png" },
-  { name: "Monalisa Holly", role: "Chef", img: "/Chief-img/Cheif-11.png" },
-  { name: "Tahmina Rummi", role: "Chef", img: "/Chief-img/Cheif-12.png" },
+  { name: "Tahmina Rumi", role: "Chef", Images: "/Chief-img/Cheif-1.png" },
+  { name: "Jorina Begum", role: "Chef", Images: "/Chief-img/Cheif-2.png" },
+  { name: "M. Mohammad", role: "Chef", Images: "/Chief-img/Cheif-3.png" },
+  { name: "Munna Kathy", role: "Chef", Images: "/Chief-img/Cheif-4.png" },
+  { name: "Bisnu Devgon", role: "Chef", Images: "/Chief-img/Cheif-5.png" },
+  { name: "Motin Molladsf", role: "Chef", Images: "/Chief-img/Cheif-6.png" },
+  { name: "William Rumi", role: "Chef", Images: "/Chief-img/Cheif-7.png" },
+  { name: "Kets William Roy", role: "Chef", Images: "/Chief-img/Cheif-8.png" },
+  { name: "Mahmud Kholil", role: "Chef", Images: "/Chief-img/Cheif-9.png" },
+  { name: "Ataur Rahman", role: "Chef", Images: "/Chief-img/Cheif-10.png" },
+  { name: "Monalisa Holly", role: "Chef", Images: "/Chief-img/Cheif-11.png" },
+  { name: "Tahmina Rummi", role: "Chef", Images: "/Chief-img/Cheif-12.png" },
 ];
 
 const ChefGallery = () => {
@@ -46,7 +47,7 @@ const ChefGallery = () => {
               key={index}
               className="bg-white shadow-md rounded-lg overflow-hidden">
               <img
-                src={chef.img}
+                src={chef.Images}
                 alt={chef.name}
                 className="w-full h-96 object-cover"
               />

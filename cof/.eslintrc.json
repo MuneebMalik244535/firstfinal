@@ -1,6 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended", "plugin:react/recommended"],
   "rules": {
-    "react/no-inline-styles": "off"
+    "react/no-inline-styles": "off", // Disable inline style warnings
+    "react/react-in-jsx-scope": "off", // For Next.js (no need to import React in each file)
+    "no-unused-vars": "warn", // Warnings for unused variables instead of errors
+    "no-console": "warn", // Warnings for console logs
+    "semi": ["error", "always"], // Ensure semicolons are always used
+    "quotes": ["error", "double"] // Ensure double quotes for strings
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Automatically detect React version
+    }
   }
 }
+
