@@ -21,9 +21,9 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           <Link href="/" className="hover:text-orange-500">Home</Link>
           <Link href="/menu" className="hover:text-orange-500">Menu</Link>
-          <Link href="/blog" className="hover:text-orange-500">Blog</Link>
+          <Link href="/details" className="hover:text-orange-500">Blog</Link>
           <Link href="/checkout" className="hover:text-orange-500">Pages</Link>
-          <Link href="/shop" className="hover:text-orange-500">About</Link>
+          <Link href="/cheif" className="hover:text-orange-500">About</Link>
           <Link href="/shop" className="hover:text-orange-500">Shop</Link>
           <Link href="/contact" className="hover:text-orange-500">Contact</Link>
         </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
           <div className="space-y-4">
             <Link href="/" className="block hover:text-orange-500">Home</Link>
             <Link href="/menu" className="block hover:text-orange-500">Menu</Link>
-            <Link href="/blog" className="block hover:text-orange-500">Blog</Link>
+            <Link href="/details" className="block hover:text-orange-500">Blog</Link>
             <Link href="/checkout" className="block hover:text-orange-500">Pages</Link>
             <Link href="/shop" className="block hover:text-orange-500">About</Link>
             <Link href="/shop" className="block hover:text-orange-500">Shop</Link>
